@@ -1,0 +1,298 @@
+[Apr 14 2015 00:15:22.000000 - ERROR] POST /apis/ads/publisher/v201405/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 433
+Authorization: Bearer ya29.VAECchnRZb4TEJWsq_hKEOt_auW5bwzgDwwNrHh2m4biTpGjj9nmIFAS41sSHBLr5nsUj-QyAQ_Gzw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201405" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>I111685250</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 22:15:21 GMT
+Expires: Mon, 13 Apr 2015 22:15:21 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 467
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201405">
+      <requestId>f46273e7593494e997d5f76906d6fa1c</requestId>
+      <responseTime>504</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201405">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <ApiError.Type>StatementError</ApiError.Type>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 00:16:45.000000 - ERROR] POST /apis/ads/publisher/v201405/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAEoaQ9qEy-wKfDWyvG2DlyxhvejzLKfMsSCVDOK3PS93_cVBwOPYs1XST9RELifnZgM-nc_1dLBxw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201405" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111685250</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 22:16:44 GMT
+Expires: Mon, 13 Apr 2015 22:16:44 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 467
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201405">
+      <requestId>a241d8f0a5d830e77fb3752618a533e0</requestId>
+      <responseTime>569</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201405">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <ApiError.Type>StatementError</ApiError.Type>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 00:16:52.000000 - ERROR] POST /apis/ads/publisher/v201405/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAEcw6TEF5o53zkFLVp7F2AWK18Pyivt4WvAClRQm2v7ClJYEyKbCin1_wRHrADSfVOpS19H3dgg2g
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201405" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111685250</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 22:16:51 GMT
+Expires: Mon, 13 Apr 2015 22:16:51 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 466
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201405">
+      <requestId>debdc3c9bef3f08ba515209604e053a0</requestId>
+      <responseTime>457</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201405">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <ApiError.Type>StatementError</ApiError.Type>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 00:18:35.000000 - ERROR] POST /apis/ads/publisher/v201405/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 450
+Authorization: Bearer ya29.VAHhkSdxpM9VkrZVBA9OrTZgQkCmKR3XXCZjdEymVBWQ_GQFI0e4FFT3ExdcEl9bMuAFff7nTlzveQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201405" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111685250</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>125138143730</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 22:18:34 GMT
+Expires: Mon, 13 Apr 2015 22:18:34 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 466
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201405">
+      <requestId>1308fd26ce7d0ce2123b8ce3e6c25041</requestId>
+      <responseTime>1009</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201405">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <ApiError.Type>StatementError</ApiError.Type>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

@@ -1,0 +1,2 @@
+[Apr 13 2015 17:27:26.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=507 requestId=eb7e923ac633d219c295bb462535f5b3 server=ads.google.com isFault=0 faultMessage=null
+[Apr 13 2015 19:38:37.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=206 requestId=0321706455d0a28b40a1bcb23d2a67b8 server=ads.google.com isFault=0 faultMessage=null

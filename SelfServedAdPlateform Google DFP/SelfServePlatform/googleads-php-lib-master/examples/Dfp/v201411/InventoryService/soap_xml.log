@@ -1,0 +1,720 @@
+[Mar 02 2015 22:34:49.000000 - ERROR] POST /apis/ads/publisher/v201411/InventoryService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 511
+Authorization: Bearer ya29.KgGn4qRGgkVy03353NkgoMZqh6miaxkwVap5PMA4kwEG2XXt_9BdLDbXyUn_zh82ASTgIGYeH1CpCA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createAdUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d7786f315</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d7786f315</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d7786f315</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d7786f315</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d7786f315</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+    </ns1:createAdUnits>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:34:49 GMT
+Expires: Mon, 02 Mar 2015 21:34:49 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>5382df9b5eaa300ee0a081279474fa99</requestId>
+      <responseTime>706</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[ServerError.SERVER_ERROR @ ]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[ServerError.SERVER_ERROR @ ]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ServerError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>ServerError.SERVER_ERROR</errorString>
+            <ApiError.Type>ServerError</ApiError.Type>
+            <reason>SERVER_ERROR</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 02 2015 22:38:22.000000 - ERROR] POST /apis/ads/publisher/v201411/InventoryService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 510
+Authorization: Bearer ya29.KgFkfPDTgE5KaYZXM46qvWDchef2l2T0BwQ0aYko-v2vNNFdPEejgPk2kOQ2Bw15JWCvdomnK3WILw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createAdUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84ce8c8f</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84ce8c8f</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84ce8c8f</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84ce8c8f</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84ce8c8f</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+    </ns1:createAdUnits>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:38:22 GMT
+Expires: Mon, 02 Mar 2015 21:38:22 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>5d53bcbae8348b0251f0d14b906ba35b</requestId>
+      <responseTime>732</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[ServerError.SERVER_ERROR @ ]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[ServerError.SERVER_ERROR @ ]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ServerError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>ServerError.SERVER_ERROR</errorString>
+            <ApiError.Type>ServerError</ApiError.Type>
+            <reason>SERVER_ERROR</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 02 2015 22:38:24.000000 - ERROR] POST /apis/ads/publisher/v201411/InventoryService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 510
+Authorization: Bearer ya29.KgFs2FILLwz9Ehry_1u_UXAFWdkFXQg1h-AD9LoyPXsY0Dq5vDYS5M_OCxOzGeZhQgtzJq8TpkUrjg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createAdUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84f4e856</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84f4e856</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84f4e856</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84f4e856</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d84f4e856</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+    </ns1:createAdUnits>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:38:24 GMT
+Expires: Mon, 02 Mar 2015 21:38:24 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>6a6ae434300365eb1e164382f3a0987c</requestId>
+      <responseTime>768</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[ServerError.SERVER_ERROR @ ]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[ServerError.SERVER_ERROR @ ]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ServerError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>ServerError.SERVER_ERROR</errorString>
+            <ApiError.Type>ServerError</ApiError.Type>
+            <reason>SERVER_ERROR</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 02 2015 22:43:56.000000 - ERROR] POST /apis/ads/publisher/v201411/InventoryService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 511
+Authorization: Bearer ya29.KgH4hZxWyJ8ny45vaRgKCH6H_Kg-X52F2eMlJTxgtxaztN8K4pZuJ1olD_VXx-_yP9Vsjr3_1o2zQw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createAdUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d99b7d014</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d99b7d014</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d99b7d014</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d99b7d014</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Ad_Unit_54f4d99b7d014</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+    </ns1:createAdUnits>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:43:56 GMT
+Expires: Mon, 02 Mar 2015 21:43:56 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>841b9c88c05be457805bef1e89dc6434</requestId>
+      <responseTime>466</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[ServerError.SERVER_ERROR @ ]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[ServerError.SERVER_ERROR @ ]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ServerError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>ServerError.SERVER_ERROR</errorString>
+            <ApiError.Type>ServerError</ApiError.Type>
+            <reason>SERVER_ERROR</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 02 2015 22:46:09.000000 - ERROR] POST /apis/ads/publisher/v201411/InventoryService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 343
+Authorization: Bearer ya29.KgGVMZF4MZFZHPDOG4gDULSkvMvZXPvdvqmRmDpnL7gZl2yMJczCBGt_QqA-Ljv70O7TxkYZ0EZ5Eg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:updateAdUnits>
+      <ns1:adUnits>
+        <ns1:adUnitSizes>
+          <ns1:size/>
+          <ns1:environmentType>BROWSER</ns1:environmentType>
+        </ns1:adUnitSizes>
+      </ns1:adUnits>
+    </ns1:updateAdUnits>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:46:09 GMT
+Expires: Mon, 02 Mar 2015 21:46:09 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 436
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>546c83d0e3fe4a6fb16cd077be106cb1</requestId>
+      <responseTime>276</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[NotNullError.NULL @ [0].id]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[NotNullError.NULL @ [0].id]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="NotNullError">
+            <fieldPath>[0].id</fieldPath>
+            <trigger/>
+            <errorString>NotNullError.NULL</errorString>
+            <ApiError.Type>NotNullError</ApiError.Type>
+            <reason>NULL</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 02 2015 22:46:51.000000 - ERROR] POST /apis/ads/publisher/v201411/InventoryService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 562
+Authorization: Bearer ya29.KgEEcsIGvwa0enifi8vwGEv3JmUNYgcq913WhDUTgVws7zbDvSP80IWGLyPzqkJa5TY7rfeOEJqA_w
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createAdUnits>
+      <ns1:adUnits>
+        <ns1:parentId>35053250</ns1:parentId>
+        <ns1:name>Video_Ad_Unit</ns1:name>
+        <ns1:description>Ad unit description.</ns1:description>
+        <ns1:targetWindow>BLANK</ns1:targetWindow>
+        <ns1:adUnitSizes>
+          <ns1:size>
+            <ns1:width>400</ns1:width>
+            <ns1:height>300</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+          <ns1:environmentType>VIDEO_PLAYER</ns1:environmentType>
+          <ns1:companions>
+            <ns1:size>
+              <ns1:width>300</ns1:width>
+              <ns1:height>250</ns1:height>
+              <ns1:isAspectRatio>false</ns1:isAspectRatio>
+            </ns1:size>
+            <ns1:environmentType>BROWSER</ns1:environmentType>
+          </ns1:companions>
+          <ns1:companions>
+            <ns1:size>
+              <ns1:width>728</ns1:width>
+              <ns1:height>90</ns1:height>
+              <ns1:isAspectRatio>false</ns1:isAspectRatio>
+            </ns1:size>
+            <ns1:environmentType>BROWSER</ns1:environmentType>
+          </ns1:companions>
+        </ns1:adUnitSizes>
+        <ns1:targetPlatform>WEB</ns1:targetPlatform>
+        <ns1:explicitlyTargeted>true</ns1:explicitlyTargeted>
+      </ns1:adUnits>
+    </ns1:createAdUnits>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:46:48 GMT
+Expires: Mon, 02 Mar 2015 21:46:48 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 498
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>d0bff8de0440384833f6492e9ca564a1</requestId>
+      <responseTime>538</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[InventoryUnitError.EXPLICIT_TARGETING_NOT_ALLOWED @ explicitlyTargeted; trigger:'40062770']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[InventoryUnitError.EXPLICIT_TARGETING_NOT_ALLOWED @ explicitlyTargeted; trigger:'40062770']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InventoryUnitError">
+            <fieldPath>explicitlyTargeted</fieldPath>
+            <trigger>40062770</trigger>
+            <errorString>InventoryUnitError.EXPLICIT_TARGETING_NOT_ALLOWED</errorString>
+            <ApiError.Type>InventoryUnitError</ApiError.Type>
+            <reason>EXPLICIT_TARGETING_NOT_ALLOWED</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

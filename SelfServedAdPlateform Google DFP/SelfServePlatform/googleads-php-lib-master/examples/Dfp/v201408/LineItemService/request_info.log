@@ -1,0 +1,3 @@
+[Apr 20 2015 20:00:51.000000 - ERROR] service=LineItemService method=getLineItemsByStatement responseTime=993 requestId=af8994b04bbcee0e669fc8ead1ec6219 server=ads.google.com isFault=1 faultMessage=[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']
+[Apr 20 2015 20:01:26.000000 - INFO] service=LineItemService method=getLineItemsByStatement responseTime=1273 requestId=230cdaa7a2c5c7313d43dcd54a937365 server=ads.google.com isFault=0 faultMessage=null
+[Apr 20 2015 20:01:28.000000 - INFO] service=LineItemService method=updateLineItems responseTime=1856 requestId=10e301f652085942c3b46688d4ff79c3 server=ads.google.com isFault=0 faultMessage=null

@@ -1,0 +1,3161 @@
+[Apr 13 2015 19:29:43.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 1272
+Authorization: Bearer ya29.VAF3RX2r3ztCvBS8TxIizLc90u2cjJJlRZXo8dk-yFsSR2eTUjDmyV4zEA-pseVr4uqLouXgUIfLjA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createLineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Line item #552bfd048541b</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>29</ns1:minute>
+          <ns1:second>40</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Line item #552bfd0485803</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>29</ns1:minute>
+          <ns1:second>40</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Line item #552bfd0485803</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>29</ns1:minute>
+          <ns1:second>40</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Line item #552bfd0485803</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>29</ns1:minute>
+          <ns1:second>40</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Line item #552bfd0485803</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>29</ns1:minute>
+          <ns1:second>40</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+    </ns1:createLineItems>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:29:43 GMT
+Expires: Mon, 13 Apr 2015 17:29:43 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 470
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>853edf67041c7825384f4af68a28a285</requestId>
+      <responseTime>1349</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[UniqueError.NOT_UNIQUE @ lineItem[2].name; trigger:'Line item #552bfd0485803', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'Line item #552bfd0485803', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'Line item #552bfd0485803']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[UniqueError.NOT_UNIQUE @ lineItem[2].name; trigger:'Line item #552bfd0485803', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'Line item #552bfd0485803', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'Line item #552bfd0485803']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[2].name</fieldPath>
+            <trigger>Line item #552bfd0485803</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[3].name</fieldPath>
+            <trigger>Line item #552bfd0485803</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[4].name</fieldPath>
+            <trigger>Line item #552bfd0485803</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 19:30:19.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 1239
+Authorization: Bearer ya29.VAEsnDmUmAJqiPPWQkWOHKTekG5HCzeCAxTrDzNwDcgLSi_w3-fbvfI075bo1D3xtddUj70yFi8Z8Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createLineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Lineitem #552bfd28235d7</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>16</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Lineitem #552bfd28235d7</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>16</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Lineitem #552bfd28235d7</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>16</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Lineitem #552bfd28235d7</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>16</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>Lineitem #552bfd28235d7</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>16</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+    </ns1:createLineItems>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:30:18 GMT
+Expires: Mon, 13 Apr 2015 17:30:18 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 480
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>b9724a5b141d658d8a83a4b78e10c3bd</requestId>
+      <responseTime>1280</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[UniqueError.NOT_UNIQUE @ lineItem[1].name; trigger:'Lineitem #552bfd28235d7', UniqueError.NOT_UNIQUE @ lineItem[2].name; trigger:'Lineitem #552bfd28235d7', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'Lineitem #552bfd28235d7', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'Lineitem #552bfd28235d7']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[UniqueError.NOT_UNIQUE @ lineItem[1].name; trigger:'Lineitem #552bfd28235d7', UniqueError.NOT_UNIQUE @ lineItem[2].name; trigger:'Lineitem #552bfd28235d7', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'Lineitem #552bfd28235d7', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'Lineitem #552bfd28235d7']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[1].name</fieldPath>
+            <trigger>Lineitem #552bfd28235d7</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[2].name</fieldPath>
+            <trigger>Lineitem #552bfd28235d7</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[3].name</fieldPath>
+            <trigger>Lineitem #552bfd28235d7</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[4].name</fieldPath>
+            <trigger>Lineitem #552bfd28235d7</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 19:31:01.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 1280
+Authorization: Bearer ya29.VAEs0NB4ksQ9GEpZkwYNYbHrXNvBUx0Lk5KlCoqYzClhIECK4faN8p6wLSUO2E3WrQ9fZj0jZ4MsVw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createLineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>12321123 #552bfd527b5be</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>58</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>12321123 #552bfd527b5be</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>58</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>12321123 #552bfd527b9a6</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>58</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>12321123 #552bfd527b9a6</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>58</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>12321123 #552bfd527b9a6</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>30</ns1:minute>
+          <ns1:second>58</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+    </ns1:createLineItems>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:31:01 GMT
+Expires: Mon, 13 Apr 2015 17:31:01 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 480
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>d3c2222bb5d86508ea4a2726b69c4b90</requestId>
+      <responseTime>1443</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[UniqueError.NOT_UNIQUE @ lineItem[1].name; trigger:'12321123 #552bfd527b5be', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'12321123 #552bfd527b9a6', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'12321123 #552bfd527b9a6']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[UniqueError.NOT_UNIQUE @ lineItem[1].name; trigger:'12321123 #552bfd527b5be', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'12321123 #552bfd527b9a6', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'12321123 #552bfd527b9a6']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[1].name</fieldPath>
+            <trigger>12321123 #552bfd527b5be</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[3].name</fieldPath>
+            <trigger>12321123 #552bfd527b9a6</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[4].name</fieldPath>
+            <trigger>12321123 #552bfd527b9a6</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 19:33:33.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 1244
+Authorization: Bearer ya29.VAH8F2eFymcc57kTk2WOJE0s3SkaFuKuztpIY_ajOph28QYVsyky5ddWYtbl5rnbuCHICHqsfFAAXQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createLineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>552bfdead4280</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>33</ns1:minute>
+          <ns1:second>30</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>552bfdead4668</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>33</ns1:minute>
+          <ns1:second>30</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>552bfdead4668</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>33</ns1:minute>
+          <ns1:second>30</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>552bfdead4668</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>33</ns1:minute>
+          <ns1:second>30</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>552bfdead4668</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>33</ns1:minute>
+          <ns1:second>30</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>4375970</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+    </ns1:createLineItems>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:33:33 GMT
+Expires: Mon, 13 Apr 2015 17:33:33 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 459
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>833abc286bd6856bf63c94009eab0ada</requestId>
+      <responseTime>1080</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[UniqueError.NOT_UNIQUE @ lineItem[2].name; trigger:'552bfdead4668', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'552bfdead4668', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'552bfdead4668']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[UniqueError.NOT_UNIQUE @ lineItem[2].name; trigger:'552bfdead4668', UniqueError.NOT_UNIQUE @ lineItem[3].name; trigger:'552bfdead4668', UniqueError.NOT_UNIQUE @ lineItem[4].name; trigger:'552bfdead4668']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[2].name</fieldPath>
+            <trigger>552bfdead4668</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[3].name</fieldPath>
+            <trigger>552bfdead4668</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>lineItem[4].name</fieldPath>
+            <trigger>552bfdead4668</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 19:39:14.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 1007
+Authorization: Bearer ya29.VAF-vBqV5ILu9508XtplUAmhlaDwB3i8B-Cje9f0HKeRV7A2HyAY67-7gBllfQKaluycu5luddHDyQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createLineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>552bff3fb44b9</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>39</ns1:minute>
+          <ns1:second>11</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>40331690</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+    </ns1:createLineItems>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:39:13 GMT
+Expires: Mon, 13 Apr 2015 17:39:13 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 442
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>88f75b708b88a1d7def21f22f2512563</requestId>
+      <responseTime>774</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[CommonError.NOT_FOUND @ lineItem[0].placement.Id; trigger:'40331690']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[CommonError.NOT_FOUND @ lineItem[0].placement.Id; trigger:'40331690']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CommonError">
+            <fieldPath>lineItem[0].placement.Id</fieldPath>
+            <trigger>40331690</trigger>
+            <errorString>CommonError.NOT_FOUND</errorString>
+            <reason>NOT_FOUND</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 19:39:27.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 1005
+Authorization: Bearer ya29.VAHTPEzrF_ZR4A0i3Bj4XtNR-Uma3j2o7nl_M2glkYU7TAStGt6rWzpKk0V6EUXjUtU2ogr7IIXUvg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createLineItems>
+      <ns1:lineItems>
+        <ns1:orderId>264141050</ns1:orderId>
+        <ns1:name>552bff4d1e177</ns1:name>
+        <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+        <ns1:endDateTime>
+          <ns1:date>
+            <ns1:year>2015</ns1:year>
+            <ns1:month>5</ns1:month>
+            <ns1:day>13</ns1:day>
+          </ns1:date>
+          <ns1:hour>19</ns1:hour>
+          <ns1:minute>39</ns1:minute>
+          <ns1:second>25</ns1:second>
+          <ns1:timeZoneID>Europe/Paris</ns1:timeZoneID>
+        </ns1:endDateTime>
+        <ns1:creativeRotationType>EVEN</ns1:creativeRotationType>
+        <ns1:lineItemType>STANDARD</ns1:lineItemType>
+        <ns1:costPerUnit>
+          <ns1:currencyCode>USD</ns1:currencyCode>
+          <ns1:microAmount>2000000</ns1:microAmount>
+        </ns1:costPerUnit>
+        <ns1:costType>CPM</ns1:costType>
+        <ns1:creativePlaceholders>
+          <ns1:size>
+            <ns1:width>300</ns1:width>
+            <ns1:height>250</ns1:height>
+            <ns1:isAspectRatio>false</ns1:isAspectRatio>
+          </ns1:size>
+        </ns1:creativePlaceholders>
+        <ns1:allowOverbook>true</ns1:allowOverbook>
+        <ns1:primaryGoal>
+          <ns1:goalType>LIFETIME</ns1:goalType>
+          <ns1:unitType>IMPRESSIONS</ns1:unitType>
+          <ns1:units>500000</ns1:units>
+        </ns1:primaryGoal>
+        <ns1:targeting>
+          <ns1:geoTargeting>
+            <ns1:targetedLocations>
+              <ns1:id>2840</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:targetedLocations>
+              <ns1:id>20123</ns1:id>
+            </ns1:targetedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>1016367</ns1:id>
+            </ns1:excludedLocations>
+            <ns1:excludedLocations>
+              <ns1:id>200501</ns1:id>
+            </ns1:excludedLocations>
+          </ns1:geoTargeting>
+          <ns1:inventoryTargeting>
+            <ns1:targetedPlacementIds>40331690</ns1:targetedPlacementIds>
+          </ns1:inventoryTargeting>
+          <ns1:dayPartTargeting>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SATURDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:dayParts>
+              <ns1:dayOfWeek>SUNDAY</ns1:dayOfWeek>
+              <ns1:startTime>
+                <ns1:hour>0</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:startTime>
+              <ns1:endTime>
+                <ns1:hour>24</ns1:hour>
+                <ns1:minute>ZERO</ns1:minute>
+              </ns1:endTime>
+            </ns1:dayParts>
+            <ns1:timeZone>BROWSER</ns1:timeZone>
+          </ns1:dayPartTargeting>
+          <ns1:technologyTargeting>
+            <ns1:browserTargeting>
+              <ns1:browsers>
+                <ns1:id>500072</ns1:id>
+              </ns1:browsers>
+            </ns1:browserTargeting>
+          </ns1:technologyTargeting>
+          <ns1:userDomainTargeting>
+            <ns1:domains>usa.gov</ns1:domains>
+            <ns1:targeted>false</ns1:targeted>
+          </ns1:userDomainTargeting>
+        </ns1:targeting>
+      </ns1:lineItems>
+    </ns1:createLineItems>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:39:27 GMT
+Expires: Mon, 13 Apr 2015 17:39:27 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 442
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>af8af157999fde887a39b76a835ab5c5</requestId>
+      <responseTime>620</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[CommonError.NOT_FOUND @ lineItem[0].placement.Id; trigger:'40331690']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[CommonError.NOT_FOUND @ lineItem[0].placement.Id; trigger:'40331690']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CommonError">
+            <fieldPath>lineItem[0].placement.Id</fieldPath>
+            <trigger>40331690</trigger>
+            <errorString>CommonError.NOT_FOUND</errorString>
+            <reason>NOT_FOUND</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:22:02.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAGH_zAJu0qyfuJcq46jsb30CQoYXBTb_9qPzCZfMYRvZFMW_33NHTjzHDDqAznGWk-VhA3UCiHD1g
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:22:01 GMT
+Expires: Mon, 13 Apr 2015 21:22:01 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>51c50a55292ab673f18fdfad73ebd07b</requestId>
+      <responseTime>811</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:24:08.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAGj3Q_L_AQy58YUxr7ZZGBC45HtJ2_T55mnUBI1uYsmMOJxL7rPpQ0VkOwcy9xPlpLD2dOkoyhhjg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:24:08 GMT
+Expires: Mon, 13 Apr 2015 21:24:08 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 434
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>b1fc53b77a49763c47dda446951149fe</requestId>
+      <responseTime>689</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:24:15.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAGX49Wb2zUG-XFQLaqEAW4bQbvprwwFQjJB7fbBWi8Iz3Jtuk9qiC3pwe56kBz3l2ZDWY0ijqA6LA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:24:14 GMT
+Expires: Mon, 13 Apr 2015 21:24:14 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>7036efcebe5ca63404cae42e3121ba95</requestId>
+      <responseTime>829</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:24:21.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAFULNE1vw8EkCwXewaE03_Vt-zFEl4x5W5fYqbBXRdIyQv_jJPu0hgXdGoaiOfOKaX2aCkSMmVXog
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:24:20 GMT
+Expires: Mon, 13 Apr 2015 21:24:20 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>49198ea6e53256f24223c047defb0a58</requestId>
+      <responseTime>699</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:32:04.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 449
+Authorization: Bearer ya29.VAGcSocUNOFubOXRjyq0A3588vW9rUuHK5C5K1oIC2TA4mh9f4le1oIQPKNh1MkSnUskTakMs9hV5g
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>2147483647</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:32:03 GMT
+Expires: Mon, 13 Apr 2015 21:32:03 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>1fbbebc4f63dc1dac1f48b93d2165243</requestId>
+      <responseTime>693</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:36:22.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 449
+Authorization: Bearer ya29.VAEO-pUHhdO67FjcVEAer-IssvmnKLKTwPFjY4bRlcRaYTuG_6tdsoIpugQQHKWPsS5skdDgtYtxnQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>2147483647</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:36:22 GMT
+Expires: Mon, 13 Apr 2015 21:36:22 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>857f83a735116f387fda0e42327ed263</requestId>
+      <responseTime>718</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:36:50.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 448
+Authorization: Bearer ya29.VAFqaN6RvBTnZogyWdQ447zZZyJ-mE7jCkyJSbcQzDt82K_QOz_cqYBIs8wm53haxJTkYlNhsGk3sg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id =: id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>2147483647</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:36:49 GMT
+Expires: Mon, 13 Apr 2015 21:36:49 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>21592af0322aa39cdded94de717be3b0</requestId>
+      <responseTime>959</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:38:19.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAGifWYRMaIRHVr734C_OQHduaQzSJSOQfRApQiGBdtMHQDoobJHp1fPeiO9TNhQsjRNRHLZmhAHAQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:38:19 GMT
+Expires: Mon, 13 Apr 2015 21:38:19 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>7dc917d39fd828f2ba2dd120f5f2aa46</requestId>
+      <responseTime>602</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 23:44:34.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 440
+Authorization: Bearer ya29.VAF3ECYDdLd3YFj8rN_GC98ubaksDkuJp-1dKBjg0Du_CAEeyfTQMvQyDffIyXbHOzmS5OpB67zQcg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111680690</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>111680690</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 21:44:34 GMT
+Expires: Mon, 13 Apr 2015 21:44:34 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>7792791b9eea74bfe4a014a03f52c1bd</requestId>
+      <responseTime>800</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 00:02:23.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 432
+Authorization: Bearer ya29.VAGA3rEPp3H2QFbGpR3NgSicnKcjENW-kKvjQglMqaDL7-W1S5WhPkJ0OefaPIPqq0lIegChV2dKZg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE id = :id ORDER BY id ASC LIMIT 1</ns1:query>
+        <ns1:values>
+          <ns1:key>111685250</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue"/>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 22:02:22 GMT
+Expires: Mon, 13 Apr 2015 22:02:22 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>65e156b8e59cd6af9e3fc1b4feb98919</requestId>
+      <responseTime>593</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[StatementError.VARIABLE_NOT_BOUND_TO_VALUE @ ; trigger:'id']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="StatementError">
+            <fieldPath/>
+            <trigger>id</trigger>
+            <errorString>StatementError.VARIABLE_NOT_BOUND_TO_VALUE</errorString>
+            <reason>VARIABLE_NOT_BOUND_TO_VALUE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

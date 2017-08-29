@@ -1,0 +1,2 @@
+[Mar 02 2015 22:36:10.000000 - ERROR] service=ContentService method=getContentByStatement responseTime=378 requestId=f6ebd13a07f049941b42354adbadc429 server=ads.google.com isFault=1 faultMessage=[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']
+[Mar 02 2015 22:53:46.000000 - ERROR] service=ContentService method=getContentByStatement responseTime=403 requestId=c335eed4c0d69589f554d2de33f0d575 server=ads.google.com isFault=1 faultMessage=[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']

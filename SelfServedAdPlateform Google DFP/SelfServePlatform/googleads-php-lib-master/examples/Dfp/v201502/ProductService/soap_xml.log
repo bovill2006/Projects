@@ -1,0 +1,204 @@
+[Apr 13 2015 17:27:09.000000 - ERROR] POST /apis/ads/publisher/v201502/ProductService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 345
+Authorization: Bearer ya29.VAEcRlfz4ML4Yj4Bj0VY-hiCTTyK1Ydk-lRIXje2wUUkv2sH-JGRk665-JW7HuKeahZ_AWa5e7neDQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getProductsByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getProductsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 15:27:08 GMT
+Expires: Mon, 13 Apr 2015 15:27:08 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 426
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>c4f9fde54b9cbc0fc0a316be427869e4</requestId>
+      <responseTime>1165</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>OFFERS</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 19:38:19.000000 - ERROR] POST /apis/ads/publisher/v201502/ProductService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 345
+Authorization: Bearer ya29.VAHRARvN8e8TVA4gBr0cXy0eYjysf1vYWWaI08c1Gku66IpsFY_5GsOkkATzYRZp5vjj5o6iYzlTFg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getProductsByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getProductsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:38:18 GMT
+Expires: Mon, 13 Apr 2015 17:38:18 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 423
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>023a77523fb3313ae95ceb9310df1df1</requestId>
+      <responseTime>1173</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>OFFERS</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 13 2015 19:38:28.000000 - ERROR] POST /apis/ads/publisher/v201502/ProductService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 345
+Authorization: Bearer ya29.VAE5lvvudtwbI_Vdb6ghfUFO2jMOaHIvawA1eSVDyCXz-AZD2Q_tx6uvNjZ5Wmn3IhzY_yP_QGK_cQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getProductsByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getProductsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 13 Apr 2015 17:38:28 GMT
+Expires: Mon, 13 Apr 2015 17:38:28 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 424
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>4841bf64ab209e9a2ae07e63431e2cbc</requestId>
+      <responseTime>3042</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>OFFERS</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
