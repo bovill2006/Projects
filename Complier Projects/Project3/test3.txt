@@ -1,0 +1,9 @@
+VAR
+  a : INT;
+  b : REAL;
+{ 
+   a = b;
+}
+
+ERROR CODE 3
+

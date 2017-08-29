@@ -1,0 +1,13 @@
+﻿Build started 10/5/2014 6:03:39 PM.
+     1>Project "C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project2\HWK2\HWK2\HWK2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\bovie_000\skydrive\classes\fall2014\cse340\project2\hwk2\hwk2\source.cpp(42): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>c:\users\bovie_000\skydrive\classes\fall2014\cse340\project2\hwk2\hwk2\source.cpp(86): warning C4552: '-' : operator has no effect; expected operator with side-effect
+     1>Done Building Project "C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project2\HWK2\HWK2\HWK2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.58

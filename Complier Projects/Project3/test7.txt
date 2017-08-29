@@ -1,0 +1,10 @@
+
+TYPE
+  myint : INT;
+
+VAR  myint : INT;
+
+  { x = 0.0; }
+
+ERROR CODE 1
+

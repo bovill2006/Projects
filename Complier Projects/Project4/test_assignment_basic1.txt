@@ -1,0 +1,18 @@
+i;
+{
+  i = 42; 
+  
+ SWITCH i {
+  	CASE 2: { 
+  		print i;
+  		}
+  		
+  	CASE 42: { 
+  		i = 12; 
+  		print i;
+  		}
+	}
+}
+
+42
+12

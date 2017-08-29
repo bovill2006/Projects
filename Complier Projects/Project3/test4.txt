@@ -1,0 +1,10 @@
+{ 
+  WHILE a
+  {
+      b = b+1;
+  }
+}
+
+INT : b #
+BOOLEAN : a #
+

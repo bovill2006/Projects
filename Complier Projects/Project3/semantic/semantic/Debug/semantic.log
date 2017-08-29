@@ -1,0 +1,15 @@
+﻿Build started 11/6/2014 12:01:19 AM.
+     1>Project "C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project3\semantic\semantic\semantic.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\semantic.c
+         semantic.c
+     1>c:\users\bovie_000\skydrive\classes\fall2014\cse340\project3\semantic.c(844): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bovie_000\skydrive\classes\fall2014\cse340\project3\semantic.c(948): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project3\semantic\Debug\semantic.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project3\semantic\Debug\semantic.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project3\semantic\Debug\semantic.lib" /MACHINE:X86 Debug\semantic.obj
+         semantic.vcxproj -> C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project3\semantic\Debug\semantic.exe
+     1>Done Building Project "C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project3\semantic\semantic\semantic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98

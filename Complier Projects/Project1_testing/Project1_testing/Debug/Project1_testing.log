@@ -1,0 +1,17 @@
+﻿Build started 9/4/2014 11:46:45 PM.
+     1>Project "C:\Users\bovie_000\SkyDrive\Classes\Fall 2014\CSE340\Project1_testing\Project1_testing\Project1_testing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\bovie_000\skydrive\classes\fall 2014\cse340\project1_testing\project1_testing\source.cpp(189): error C3861: 'isspace': identifier not found
+     1>c:\users\bovie_000\skydrive\classes\fall 2014\cse340\project1_testing\project1_testing\source.cpp(223): error C3861: 'strcmp': identifier not found
+     1>c:\users\bovie_000\skydrive\classes\fall 2014\cse340\project1_testing\project1_testing\source.cpp(232): error C3861: 'isalnum': identifier not found
+     1>c:\users\bovie_000\skydrive\classes\fall 2014\cse340\project1_testing\project1_testing\source.cpp(243): error C3861: 'isdigit': identifier not found
+     1>c:\users\bovie_000\skydrive\classes\fall 2014\cse340\project1_testing\project1_testing\source.cpp(284): error C3861: 'isdigit': identifier not found
+     1>c:\users\bovie_000\skydrive\classes\fall 2014\cse340\project1_testing\project1_testing\source.cpp(352): error C3861: 'isdigit': identifier not found
+     1>c:\users\bovie_000\skydrive\classes\fall 2014\cse340\project1_testing\project1_testing\source.cpp(357): error C3861: 'isalpha': identifier not found
+     1>Done Building Project "C:\Users\bovie_000\SkyDrive\Classes\Fall 2014\CSE340\Project1_testing\Project1_testing\Project1_testing.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97

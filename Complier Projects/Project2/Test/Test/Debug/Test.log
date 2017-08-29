@@ -1,0 +1,11 @@
+﻿Build started 10/2/2014 9:29:36 PM.
+     1>Project "C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project2\Test\Test\Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HWK2.cpp
+         HWK2.cpp
+     1>c:\users\bovie_000\skydrive\classes\fall2014\cse340\project2\test\test\hwk2.cpp(10): error C2010: '.' : unexpected in macro formal parameter list
+     1>Done Building Project "C:\Users\bovie_000\SkyDrive\Classes\Fall2014\CSE340\Project2\Test\Test\Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.22
