@@ -1,0 +1,154 @@
+<?php
+
+error_reporting(E_STRICT | E_ALL);
+
+$path = dirname(__FILE__) . '//src';
+set_include_path(get_include_path() . PATH_SEPARATOR . $path);
+
+require_once 'Google/Api/Ads/Dfp/Lib/DfpUser.php';
+require_once 'Google/Api/Ads/Dfp/Util/StatementBuilder.php';
+require_once dirname(__FILE__) . '/../../../Common/ExampleUtils.php';
+
+
+if(isset($_GET['orderid'])){
+    $orderId = $_GET['orderid'];  
+    try {  
+        $user = new DfpUser();
+        $user->LogDefaults();
+       
+    
+  // calling all the services needed 
+  $orderService = $user->GetService('OrderService', 'v201502');
+  $lineItemService = $user->GetService('LineItemService', 'v201405');
+
+  //gets the order information and places in an array 
+  $statementBuilder = new StatementBuilder();
+  $statementBuilder->Where('id = :id')
+      ->OrderBy('id ASC')
+      ->Limit(1)
+      ->WithBindVariableValue('id', $orderId);
+
+  $page = $orderService->getOrdersByStatement($statementBuilder->ToStatement());
+  $order = $page->results[0];
+  
+    //gets the lineitem information for the order and places in an array    
+  $statementBuilder = new StatementBuilder();
+  $statementBuilder->Where('orderid = :orderid')
+      ->OrderBy('id ASC')
+      ->Limit(1)
+      ->WithBindVariableValue('orderid', $orderId); 
+  $line = $lineItemService -> getLineItemsByStatement($statementBuilder->ToStatement())->results[0];    
+      
+      if($line->creativePlaceholders[0]->size->width == 1080)
+      {$type ="Splash Screen"; } else {$type = "Event";}  
+      
+        
+    } catch (OAuth2Exception $e) {
+        ExampleUtils::CheckForOAuth2Errors($e);
+    } catch (ValidationException $e) {
+        ExampleUtils::CheckForOAuth2Errors($e);
+    } catch (Exception $e) {
+        printf("%s\n", $e->getMessage());
+    }
+}
+?>
+
+
+
+<html>
+<head>
+<title>Order Page</title>
+</head>
+<body>
+<center><h1>Welcome To UFree Ads</h1></center>
+    
+<p>
+<form method ="post" action="update2.php" >    
+
+<!--Name-->
+<p><strong>Name:</strong><br/>
+<input type="text" name="Name" value="<?php echo $order->name; ?>"/>
+
+<!--Ad unit selection-->
+Type: <?php  echo $type ; ?>
+</p>
+    
+<!--Description-->
+<p><strong>Description:</strong><br/>
+<input type="text" style="height:100px;" size="50" align="left" name="Description"/></p>
+
+<!--Gender-->
+<p><strong>Gender:</strong><br>
+<input type="checkbox" name="gender[]" value="127073558690">Male
+<input type="checkbox" name="gender[]" value="127073558450">Female
+    
+<!--Age-->
+&nbsp;&nbsp;&nbsp;
+<br>
+<strong>Age:</strong><br>
+<input type="checkbox" name="age[]" value="127484480930">18-21
+<input type="checkbox" name="age[]" value="127484481170">22-25
+<input type="checkbox" name="age[]" value="127484481650">26-30<br>
+<input type="checkbox" name="age[]" value="127484481890">31-35
+<input type="checkbox" name="age[]" value="125242129490">36-40
+<input type="checkbox" name="age[]" value="127484482130">41-45<br>
+<input type="checkbox" name="age[]" value="127484482370">46-50
+<input type="checkbox" name="age[]" value="127484482610">51-55
+<input type="checkbox" name="age[]" value="127484482850">56-60<br>
+<input type="checkbox" name="age[]" value="127484483090">61-65
+<input type="checkbox" name="age[]" value="127484483330">66-70
+<input type="checkbox" name="age[]" value="127484483570">71-75
+    
+
+</p>
+
+<!--Futrue Ava-->
+<p><strong>Future Avalibility</strong><br>
+<input type="checkbox" name="FutureAva[]" value="127485059810">Mondays<br>
+<input type="checkbox" name="FutureAva[]" value="127485060050">Tuesdays<br>
+<input type="checkbox" name="FutureAva[]" value="127485060290">Wednesdays<br>
+<input type="checkbox" name="FutureAva[]" value="127485060530">Thursdays<br>
+<input type="checkbox" name="FutureAva[]" value="127485060770">Fridays<br>
+<input type="checkbox" name="FutureAva[]" value="127485061010">Saturdays<br>
+<input type="checkbox" name="FutureAva[]" value="127485133250">Sundays<br>
+</p>
+
+<!--Live Ava-->
+<p>
+<strong>Live Avalibility</strong><br>
+<input type="radio" name="LiveAva" value="127073558930" checked="checked">Yes
+<input type="radio" name="LiveAva" value="127073559170">No
+</p>
+
+<!--Group Ava-->
+<p>
+<strong>Group Avablibility</strong><br>
+    <input type="checkbox" name="GroupAva[]" value="125138143490">2
+    <input type="checkbox" name="GroupAva[]" value="125138143730">3
+    <input type="checkbox" name="GroupAva[]" value="125138143970">4
+    <input type="checkbox" name="GroupAva[]" value="125138144210">5
+    <input type="checkbox" name="GroupAva[]" value="127492766930">6<br>
+    <input type="checkbox" name="GroupAva[]" value="127492767170">7
+    <input type="checkbox" name="GroupAva[]" value="127492767410">8
+    <input type="checkbox" name="GroupAva[]" value="127492767650">9
+    <input type="checkbox" name="GroupAva[]" value="127492767890">10
+    <input type="checkbox" name="GroupAva[]" value="127492768130">11<br>
+    <input type="checkbox" name="GroupAva[]" value="127492768370">12
+    <input type="checkbox" name="GroupAva[]" value="127492768610">13
+    <input type="checkbox" name="GroupAva[]" value="127492768850">14
+    <input type="checkbox" name="GroupAva[]" value="127492769090">15+
+</p>
+    
+<p>
+<strong>Unit Type</strong><br>
+<input type="radio" name="unitType" value = "0" checked="checked">Impressions ($7 for 1,000 units)<br>
+<input type="radio" name="unitType" value = "1">Clicks ($.75 Per Click)
+<br>Limit of Units <input type="text" name="limit"/> 
+</p>
+<!--submission Button-->
+<p><input type="submit" name="submit" value="Update"/></p>
+    
+</form>
+</p>
+</body>
+</html>

@@ -1,0 +1,78 @@
+[Apr 20 2015 19:59:39.000000 - ERROR] POST /apis/ads/publisher/v201408/OrderService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 435
+Authorization: Bearer ya29.WwGa1ZuTYE-zh30KBYIP0tWtlL6E2yppPbwzOHgMocACYHanbV3VTmKYP6ce7S5HLuXkpjbIPvlqxQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201408">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createOrders>
+      <ns1:orders>
+        <ns1:name>Order #0</ns1:name>
+        <ns1:advertiserId>INSERT_ADVERTISER_COMPANY_ID_HERE</ns1:advertiserId>
+        <ns1:traffickerId>INSERT_TRAFFICKER_ID_HERE</ns1:traffickerId>
+        <ns1:salespersonId>INSERT_SALESPERSON_ID_HERE</ns1:salespersonId>
+      </ns1:orders>
+      <ns1:orders>
+        <ns1:name>Order #1</ns1:name>
+        <ns1:advertiserId>INSERT_ADVERTISER_COMPANY_ID_HERE</ns1:advertiserId>
+        <ns1:traffickerId>INSERT_TRAFFICKER_ID_HERE</ns1:traffickerId>
+        <ns1:salespersonId>INSERT_SALESPERSON_ID_HERE</ns1:salespersonId>
+      </ns1:orders>
+      <ns1:orders>
+        <ns1:name>Order #2</ns1:name>
+        <ns1:advertiserId>INSERT_ADVERTISER_COMPANY_ID_HERE</ns1:advertiserId>
+        <ns1:traffickerId>INSERT_TRAFFICKER_ID_HERE</ns1:traffickerId>
+        <ns1:salespersonId>INSERT_SALESPERSON_ID_HERE</ns1:salespersonId>
+      </ns1:orders>
+      <ns1:orders>
+        <ns1:name>Order #3</ns1:name>
+        <ns1:advertiserId>INSERT_ADVERTISER_COMPANY_ID_HERE</ns1:advertiserId>
+        <ns1:traffickerId>INSERT_TRAFFICKER_ID_HERE</ns1:traffickerId>
+        <ns1:salespersonId>INSERT_SALESPERSON_ID_HERE</ns1:salespersonId>
+      </ns1:orders>
+      <ns1:orders>
+        <ns1:name>Order #4</ns1:name>
+        <ns1:advertiserId>INSERT_ADVERTISER_COMPANY_ID_HERE</ns1:advertiserId>
+        <ns1:traffickerId>INSERT_TRAFFICKER_ID_HERE</ns1:traffickerId>
+        <ns1:salespersonId>INSERT_SALESPERSON_ID_HERE</ns1:salespersonId>
+      </ns1:orders>
+    </ns1:createOrders>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 20 Apr 2015 17:59:36 GMT
+Expires: Mon, 20 Apr 2015 17:59:36 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 194
+Server: GSE
+Alternate-Protocol: 443:quic,p=1
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Client</faultcode>
+      <faultstring>Unmarshalling Error: For input string: "INSERT_ADVERTISER_COMPANY_ID_HERE" </faultstring>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

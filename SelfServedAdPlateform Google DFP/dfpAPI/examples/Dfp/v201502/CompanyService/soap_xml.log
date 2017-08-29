@@ -1,0 +1,276 @@
+[Mar 17 2015 02:30:40.000000 - ERROR] POST /apis/ads/publisher/v201502/CompanyService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 364
+Authorization: Bearer ya29.OQHJr7gnPWu1sOFkbJnzbbRBVyE9jNawOimtVFMVspo_lPP19c1BCF25L06PwySg6aq5gGPbaEAwLw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createCompanies>
+      <ns1:companies>
+        <ns1:name>Advertiser #0</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #1</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #2</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #3</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #4</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+    </ns1:createCompanies>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 17 Mar 2015 01:30:32 GMT
+Expires: Tue, 17 Mar 2015 01:30:32 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 493
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>b99df587d22e68a4594a9427eca1cece</requestId>
+      <responseTime>624</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[UniqueError.NOT_UNIQUE @ [2].name; trigger:'Advertiser #2', UniqueError.NOT_UNIQUE @ [0].name; trigger:'Advertiser #0', UniqueError.NOT_UNIQUE @ [3].name; trigger:'Advertiser #3', UniqueError.NOT_UNIQUE @ [4].name; trigger:'Advertiser #4', UniqueError.NOT_UNIQUE @ [1].name; trigger:'Advertiser #1']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[UniqueError.NOT_UNIQUE @ [2].name; trigger:'Advertiser #2', UniqueError.NOT_UNIQUE @ [0].name; trigger:'Advertiser #0', UniqueError.NOT_UNIQUE @ [3].name; trigger:'Advertiser #3', UniqueError.NOT_UNIQUE @ [4].name; trigger:'Advertiser #4', UniqueError.NOT_UNIQUE @ [1].name; trigger:'Advertiser #1']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[2].name</fieldPath>
+            <trigger>Advertiser #2</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[0].name</fieldPath>
+            <trigger>Advertiser #0</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[3].name</fieldPath>
+            <trigger>Advertiser #3</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[4].name</fieldPath>
+            <trigger>Advertiser #4</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[1].name</fieldPath>
+            <trigger>Advertiser #1</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 17 2015 02:30:50.000000 - ERROR] POST /apis/ads/publisher/v201502/CompanyService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 320
+Authorization: Bearer ya29.OQGLOaDvv8s8gJ0ImSuuzeqhoIbOJyJfam_sSanEjGURh1wiUzV13rgx6XehrZ1sVrqln296rJwlXg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:updateCompanies>
+      <ns1:companies>
+        <ns1:comment> - updated.</ns1:comment>
+      </ns1:companies>
+    </ns1:updateCompanies>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 17 Mar 2015 01:30:42 GMT
+Expires: Tue, 17 Mar 2015 01:30:42 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 395
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>ec19a5b64821d2cd942233ddf58f3598</requestId>
+      <responseTime>298</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[NotNullError.NULL @ id]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[NotNullError.NULL @ id]</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="NotNullError">
+            <fieldPath>id</fieldPath>
+            <trigger/>
+            <errorString>NotNullError.NULL</errorString>
+            <reason>NULL</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 31 2015 03:08:28.000000 - ERROR] POST /apis/ads/publisher/v201502/CompanyService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 364
+Authorization: Bearer ya29.RwGEV0Q7g25OrBxIFBFsfMxCbKbvCL7pJrh0mduZzSL4-kXWz4JonYiy6DVAReI0nsphR9t-xfFb4Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createCompanies>
+      <ns1:companies>
+        <ns1:name>Advertiser #0</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #1</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #2</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #3</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+      <ns1:companies>
+        <ns1:name>Advertiser #4</ns1:name>
+        <ns1:type>ADVERTISER</ns1:type>
+      </ns1:companies>
+    </ns1:createCompanies>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 31 Mar 2015 01:08:27 GMT
+Expires: Tue, 31 Mar 2015 01:08:27 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 495
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201502">
+      <requestId>2c2da6d744b605d1c976b6df7d8b089f</requestId>
+      <responseTime>454</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[UniqueError.NOT_UNIQUE @ [1].name; trigger:'Advertiser #1', UniqueError.NOT_UNIQUE @ [0].name; trigger:'Advertiser #0', UniqueError.NOT_UNIQUE @ [3].name; trigger:'Advertiser #3', UniqueError.NOT_UNIQUE @ [2].name; trigger:'Advertiser #2', UniqueError.NOT_UNIQUE @ [4].name; trigger:'Advertiser #4']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201502">
+          <message>[UniqueError.NOT_UNIQUE @ [1].name; trigger:'Advertiser #1', UniqueError.NOT_UNIQUE @ [0].name; trigger:'Advertiser #0', UniqueError.NOT_UNIQUE @ [3].name; trigger:'Advertiser #3', UniqueError.NOT_UNIQUE @ [2].name; trigger:'Advertiser #2', UniqueError.NOT_UNIQUE @ [4].name; trigger:'Advertiser #4']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[1].name</fieldPath>
+            <trigger>Advertiser #1</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[0].name</fieldPath>
+            <trigger>Advertiser #0</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[3].name</fieldPath>
+            <trigger>Advertiser #3</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[2].name</fieldPath>
+            <trigger>Advertiser #2</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="UniqueError">
+            <fieldPath>[4].name</fieldPath>
+            <trigger>Advertiser #4</trigger>
+            <errorString>UniqueError.NOT_UNIQUE</errorString>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

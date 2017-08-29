@@ -1,0 +1,23 @@
+[Mar 02 2015 22:33:51.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=462 requestId=b29b7aeae177821915d5aa22b22591e0 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:34:05.000000 - INFO] service=InventoryService method=getAdUnitSizesByStatement responseTime=439 requestId=07c30af022c11c6ba9e6eef08dd2a70f server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:34:19.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=260 requestId=9ab784b128250cdfe30a8d9d64b7c382 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:34:19.000000 - INFO] service=InventoryService method=createAdUnits responseTime=254 requestId=dbe8c923f60b5755c2b1386b16a73104 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:34:48.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=541 requestId=161cff84dd6fc157a88cbdab2b27387b server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:34:49.000000 - ERROR] service=InventoryService method=createAdUnits responseTime=706 requestId=5382df9b5eaa300ee0a081279474fa99 server=ads.google.com isFault=1 faultMessage=[ServerError.SERVER_ERROR @ ]
+[Mar 02 2015 22:38:20.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=333 requestId=f2d6b70e771b10bddd88e2fa02d8f350 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:38:22.000000 - ERROR] service=InventoryService method=createAdUnits responseTime=732 requestId=5d53bcbae8348b0251f0d14b906ba35b server=ads.google.com isFault=1 faultMessage=[ServerError.SERVER_ERROR @ ]
+[Mar 02 2015 22:38:23.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=381 requestId=175c54de53e6b8f8b2ca3056ee83f2f9 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:38:24.000000 - ERROR] service=InventoryService method=createAdUnits responseTime=768 requestId=6a6ae434300365eb1e164382f3a0987c server=ads.google.com isFault=1 faultMessage=[ServerError.SERVER_ERROR @ ]
+[Mar 02 2015 22:43:39.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=333 requestId=3153d671df573ba7761b76da381a05bd server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:43:55.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=514 requestId=b7e354fe528c7553a09c178619f7976e server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:43:56.000000 - ERROR] service=InventoryService method=createAdUnits responseTime=466 requestId=841b9c88c05be457805bef1e89dc6434 server=ads.google.com isFault=1 faultMessage=[ServerError.SERVER_ERROR @ ]
+[Mar 02 2015 22:45:28.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=262 requestId=a06b0dada9acf161f8ae08a1d101c9c3 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:45:29.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=96 requestId=27328dbbb1c18034f91e2e9354a9f95c server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:45:54.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=376 requestId=a9328854a50ae952c06a5d67a9fe6627 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:45:55.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=116 requestId=f7b6bc72fd6d84c15afb3fb2269924e5 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:46:09.000000 - INFO] service=InventoryService method=getAdUnitsByStatement responseTime=476 requestId=5e61f12e4ffb5eea6c253f3b407b147e server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:46:09.000000 - ERROR] service=InventoryService method=updateAdUnits responseTime=276 requestId=546c83d0e3fe4a6fb16cd077be106cb1 server=ads.google.com isFault=1 faultMessage=[NotNullError.NULL @ [0].id]
+[Mar 02 2015 22:46:44.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=189 requestId=388c2e454f5806434832ca6a9acb78b6 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:46:51.000000 - ERROR] service=InventoryService method=createAdUnits responseTime=538 requestId=d0bff8de0440384833f6492e9ca564a1 server=ads.google.com isFault=1 faultMessage=[InventoryUnitError.EXPLICIT_TARGETING_NOT_ALLOWED @ explicitlyTargeted; trigger:'40062770']
+[Mar 02 2015 22:47:02.000000 - INFO] service=NetworkService method=getCurrentNetwork responseTime=67 requestId=464020d1deafd5a50f363c7680ca65d8 server=ads.google.com isFault=0 faultMessage=null
+[Mar 02 2015 22:47:02.000000 - INFO] service=InventoryService method=createAdUnits responseTime=489 requestId=249e3c92de597f8b6b6179b47d2f90df server=ads.google.com isFault=0 faultMessage=null

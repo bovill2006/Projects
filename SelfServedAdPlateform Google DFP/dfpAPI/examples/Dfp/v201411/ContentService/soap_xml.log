@@ -1,0 +1,140 @@
+[Mar 02 2015 22:36:10.000000 - ERROR] POST /apis/ads/publisher/v201411/ContentService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 343
+Authorization: Bearer ya29.KgHQJRTKwAEmgnEspVEjVyJBu1M-m_BQvF9seAPULprv-QcNyz6tB0v2CCwXkWF8ACrEbxng3yiUeQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getContentByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getContentByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:36:10 GMT
+Expires: Mon, 02 Mar 2015 21:36:10 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 472
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>f6ebd13a07f049941b42354adbadc429</requestId>
+      <responseTime>378</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>VIDEO_ADS_SYNDICATION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <ApiError.Type>FeatureError</ApiError.Type>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Mar 02 2015 22:53:46.000000 - ERROR] POST /apis/ads/publisher/v201411/ContentService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 343
+Authorization: Bearer ya29.KgH9aKnnxqsp2bLSOzt8_FysNQq4GcE_BTrNj7HBTv5HDJfuDbEfo9L7sm4lyjYTeFWFzjOH3tI6pQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201411">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getContentByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getContentByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 02 Mar 2015 21:53:45 GMT
+Expires: Mon, 02 Mar 2015 21:53:45 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 472
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.08
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201411">
+      <requestId>c335eed4c0d69589f554d2de33f0d575</requestId>
+      <responseTime>403</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201411">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>VIDEO_ADS_SYNDICATION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <ApiError.Type>FeatureError</ApiError.Type>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

@@ -1,0 +1,1 @@
+[Mar 31 2015 01:05:04.000000 - ERROR] service=LineItemCreativeAssociationService method=createLineItemCreativeAssociations responseTime=0 requestId= server=ads.google.com isFault=1 faultMessage=Unmarshalling Error: For input string: "INSERT_LINE_ITEM_ID_HERE" 

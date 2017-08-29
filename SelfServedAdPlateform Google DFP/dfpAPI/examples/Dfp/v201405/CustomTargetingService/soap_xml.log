@@ -1,0 +1,152 @@
+[Apr 20 2015 20:19:51.000000 - ERROR] POST /apis/ads/publisher/v201405/CustomTargetingService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 470
+Authorization: Bearer ya29.WwEirbU9qcQufLWXAGKbPuUAiyTh_bV0dT2LuGhuE8DioLQ-6exKu7UsDo4ORTMufh_-urWdMMh7kw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201405" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getCustomTargetingValuesByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE customTargetingKeyId = :keyId LIMIT 500</ns1:query>
+        <ns1:values>
+          <ns1:key>keyId</ns1:key>
+          <ns1:value xsi:type="ns1:NumberValue">
+            <ns1:value>INSERT_CUSTOM_TARGETING_KEY_ID_HERE</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getCustomTargetingValuesByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 20 Apr 2015 18:19:49 GMT
+Expires: Mon, 20 Apr 2015 18:19:49 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 430
+Server: GSE
+Alternate-Protocol: 443:quic,p=1
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201405">
+      <requestId>9ff01e61c8260a3cec3d337fad783c84</requestId>
+      <responseTime>83</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[ServerError.SERVER_ERROR @ ]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201405">
+          <message>[ServerError.SERVER_ERROR @ ]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ServerError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>ServerError.SERVER_ERROR</errorString>
+            <ApiError.Type>ServerError</ApiError.Type>
+            <reason>SERVER_ERROR</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 20 2015 20:20:19.000000 - ERROR] POST /apis/ads/publisher/v201405/CustomTargetingService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 470
+Authorization: Bearer ya29.WwFPDToDmSAGpaRHBm1YWUPcWeKgrC3KYaLP0F8HxJFKs1RNIl4aYhEdx2D6ESzSV2YU6OYwQENQWQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201405" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getCustomTargetingValuesByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE customTargetingKeyId = :keyId LIMIT 500</ns1:query>
+        <ns1:values>
+          <ns1:key>keyId</ns1:key>
+          <ns1:value xsi:type="ns1:NumberValue">
+            <ns1:value>INSERT_CUSTOM_TARGETING_KEY_ID_HERE</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getCustomTargetingValuesByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 20 Apr 2015 18:20:16 GMT
+Expires: Mon, 20 Apr 2015 18:20:16 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+Alternate-Protocol: 443:quic,p=1
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201405">
+      <requestId>efd7992e0c87f1d0da9436cab1c9584c</requestId>
+      <responseTime>34</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[ServerError.SERVER_ERROR @ ]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201405">
+          <message>[ServerError.SERVER_ERROR @ ]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ServerError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>ServerError.SERVER_ERROR</errorString>
+            <ApiError.Type>ServerError</ApiError.Type>
+            <reason>SERVER_ERROR</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

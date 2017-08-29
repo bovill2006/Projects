@@ -1,0 +1,3 @@
+[Apr 13 2015 17:27:09.000000 - ERROR] service=ProductService method=getProductsByStatement responseTime=1165 requestId=c4f9fde54b9cbc0fc0a316be427869e4 server=ads.google.com isFault=1 faultMessage=[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']
+[Apr 13 2015 19:38:19.000000 - ERROR] service=ProductService method=getProductsByStatement responseTime=1173 requestId=023a77523fb3313ae95ceb9310df1df1 server=ads.google.com isFault=1 faultMessage=[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']
+[Apr 13 2015 19:38:28.000000 - ERROR] service=ProductService method=getProductsByStatement responseTime=3042 requestId=4841bf64ab209e9a2ae07e63431e2cbc server=ads.google.com isFault=1 faultMessage=[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']

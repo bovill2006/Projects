@@ -1,0 +1,52 @@
+[Mar 31 2015 01:05:04.000000 - ERROR] POST /apis/ads/publisher/v201502/LineItemCreativeAssociationService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 373
+Authorization: Bearer ya29.RgERKZj6TJAGVUAl_0xQOHcBKFgsl8H3Ah5GfBFgl6g70BOjwmc69MCEMfKt9-pJ1ckzN6LPerSeow
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>36053130</ns1:networkCode>
+      <ns1:applicationName>Ufree (DfpApi-PHP/5.8.1, Common-PHP/5.8.1, PHP/5.5.12)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:createLineItemCreativeAssociations>
+      <ns1:lineItemCreativeAssociations>
+        <ns1:lineItemId>INSERT_LINE_ITEM_ID_HERE</ns1:lineItemId>
+        <ns1:creativeId>INSERT_CREATIVE_ID_HERE</ns1:creativeId>
+      </ns1:lineItemCreativeAssociations>
+    </ns1:createLineItemCreativeAssociations>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 30 Mar 2015 23:05:03 GMT
+Expires: Mon, 30 Mar 2015 23:05:03 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 186
+Server: GSE
+Alternate-Protocol: 443:quic,p=0.5
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Client</faultcode>
+      <faultstring>Unmarshalling Error: For input string: "INSERT_LINE_ITEM_ID_HERE" </faultstring>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
