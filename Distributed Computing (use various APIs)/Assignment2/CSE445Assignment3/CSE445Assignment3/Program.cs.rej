@@ -1,0 +1,10 @@
+diff a/CSE445Assignment3/CSE445Assignment3/Program.cs b/CSE445Assignment3/CSE445Assignment3/Program.cs	(rejected hunks)
+@@ -10,7 +10,7 @@
+     {
+         static void Main(string[] args)
+         {
+-            Console.WriteLine("Hello scrubcakes.\nI mean world.\n");
++            Console.WriteLine("Hello scrubcakes!!!!!!!\nI mean world.\n");
+         }
+     }
+ }
