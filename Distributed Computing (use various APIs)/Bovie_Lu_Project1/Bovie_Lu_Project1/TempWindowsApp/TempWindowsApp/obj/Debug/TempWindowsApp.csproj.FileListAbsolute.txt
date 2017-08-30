@@ -1,0 +1,12 @@
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\bin\Debug\TempWindowsApp.exe.config
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.csprojResolveAssemblyReference.cache
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.Form1.resources
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.Properties.Resources.resources
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.csproj.GenerateResource.Cache
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\bin\Debug\TempWindowsApp.exe
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\bin\Debug\TempWindowsApp.pdb
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.exe
+C:\Users\Bovill\Desktop\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.pdb
+D:\OneDrive\Classes\Fall2014\CSE445\Bovie_Lu_Project1\Bovie_Lu_Project1\TempWindowsApp\TempWindowsApp\bin\Debug\TempWindowsApp.exe.config
+D:\OneDrive\Classes\Fall2014\CSE445\Bovie_Lu_Project1\Bovie_Lu_Project1\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.exe
+D:\OneDrive\Classes\Fall2014\CSE445\Bovie_Lu_Project1\Bovie_Lu_Project1\TempWindowsApp\TempWindowsApp\obj\Debug\TempWindowsApp.pdb

@@ -1,0 +1,9 @@
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\bin\Debug\BovieLusBrowser.exe.config
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\bin\Debug\BovieLusBrowser.exe
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\bin\Debug\BovieLusBrowser.pdb
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\obj\Debug\BovieLusBrowser.csprojResolveAssemblyReference.cache
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\obj\Debug\BovieLusBrowser.Form1.resources
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\obj\Debug\BovieLusBrowser.Properties.Resources.resources
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\obj\Debug\BovieLusBrowser.csproj.GenerateResource.Cache
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\obj\Debug\BovieLusBrowser.exe
+C:\Users\Bovill\Desktop\BovieLusBrowser\BovieLusBrowser\obj\Debug\BovieLusBrowser.pdb

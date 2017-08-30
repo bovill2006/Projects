@@ -1,0 +1,5 @@
+C:\Users\Bovill\Desktop\Temperature\Temperature\bin\Temperature.dll
+C:\Users\Bovill\Desktop\Temperature\Temperature\bin\Temperature.pdb
+C:\Users\Bovill\Desktop\Temperature\Temperature\obj\Debug\Temperature.dll
+C:\Users\Bovill\Desktop\Temperature\Temperature\obj\Debug\Temperature.pdb
+C:\Users\Bovill\Desktop\Temperature\Temperature\obj\Debug\Temperature.csprojResolveAssemblyReference.cache

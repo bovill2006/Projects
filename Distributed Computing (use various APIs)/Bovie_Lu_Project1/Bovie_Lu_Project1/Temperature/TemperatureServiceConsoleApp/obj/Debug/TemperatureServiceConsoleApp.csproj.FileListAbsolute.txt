@@ -1,0 +1,5 @@
+C:\Users\Bovill\Desktop\Temperature\TemperatureServiceConsoleApp\bin\Debug\TemperatureServiceConsoleApp.exe.config
+C:\Users\Bovill\Desktop\Temperature\TemperatureServiceConsoleApp\bin\Debug\TemperatureServiceConsoleApp.exe
+C:\Users\Bovill\Desktop\Temperature\TemperatureServiceConsoleApp\bin\Debug\TemperatureServiceConsoleApp.pdb
+C:\Users\Bovill\Desktop\Temperature\TemperatureServiceConsoleApp\obj\Debug\TemperatureServiceConsoleApp.exe
+C:\Users\Bovill\Desktop\Temperature\TemperatureServiceConsoleApp\obj\Debug\TemperatureServiceConsoleApp.pdb
